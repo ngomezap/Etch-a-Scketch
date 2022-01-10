@@ -1,0 +1,73 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    font-size: 42px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+#set{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+#resize{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#big,
+#small{
+    background-color: black;
+}
+
+#big{
+    width: 20px;
+    height: 20px;
+}
+
+#small{
+    width: 8px;
+    height: 8px;
+}
+
+#container{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    gap: 30px;
+}
+
+#canvas{
+    background-color: beige;
+    border: 10px red solid;
+    display: flex;
+    justify-items: stretch;
+    width: 400px;
+    height: 400px;
+}
+
+.square{
+    height:100%;
+}
+
+.rows{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.black{
+    background-color: black;
+}
+
+.rainbow{
+    background-color: chocolate;
+}
